@@ -10,8 +10,26 @@ public class Clouds extends Applet{
 	}
 	public static void
 	drawSky(Graphics g){
-		g.setColor(new Color(13,95,223));
-		g.fillRect(0, 0, 1000, 800);}
+		int R = 13;
+		int G = 87;
+		int B = 200;
+		for(int x1 = 0; x1 < 1000; x1++)
+		{
+		
+		
+		int y1 = 0;
+		int y2 = 800;
+		
+		g.setColor(new Color(R,G,B));
+		g.fillRect(y1,x1,1000,1300);
+		y1++;
+
+				
+		}
+		
+		
+
+		}
 	public static void
 	drawClouds(Graphics g) {
 		for(int k = 0; k < 15; k++) {
