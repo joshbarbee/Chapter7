@@ -88,9 +88,5 @@ public class Mountains extends Applet{
 }
 
 		
-		
-		
-		
-		
 
 
